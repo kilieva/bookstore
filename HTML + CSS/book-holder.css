@@ -1,0 +1,44 @@
+div.holder {   
+    width: 100%; 
+    height: 430px;
+    overflow: hidden;
+    padding-top: 120px;   
+    position: relative;   
+    display: flex;
+}
+ 
+div.holder1, div.holder2 {   
+    width: 100%;
+    height: 430px;
+    padding-top: 10px;
+    overflow: hidden;    
+    position: relative;   
+    display: flex;
+}
+
+div.hold-book img {    
+    height: 50%;    
+    transition: transform .8s ease-in-out;
+    box-shadow: 5px 8px #888888;
+}
+
+div.hold-book { 
+    width: 280px;
+    height: 500px; 
+    text-align: center;    
+}
+
+div.hold-book h4 {   
+    font-style: italic;
+}
+
+div.hold-book p {   
+    font-size: 18px;
+    font-weight: 900;
+    color: #FCB326;
+}
+
+div.hold-book img:hover {       
+    cursor: pointer;   
+    transform: translate3d(0px, -5px, 0px);
+}
